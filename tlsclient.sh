@@ -1,0 +1,1 @@
+curl --cacert ./sds/secrets/ca.crt $1

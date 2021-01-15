@@ -1,0 +1,7 @@
+resources:
+  - "@type": "type.googleapis.com/envoy.extensions.transport_sockets.tls.v3.Secret"
+    validation_context:
+      crl:
+        filename: ./sds/secrets/crl.pem
+      trusted_ca:
+        filename: ./sds/secrets/ca.crt
